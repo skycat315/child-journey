@@ -1,0 +1,173 @@
+/* Whole pages */
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #d2f7ff;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border: 5px solid #ffb3c6;
+}
+
+.form-container {
+    margin-top: 10px;
+    border: 3px solid #a0c4ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #ff7b54;
+}
+
+h3 {
+    text-align: center;
+    color: #c3b1e1;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #fdffb6;
+}
+
+button {
+    width: 100%;
+    background-color: #ecfadc;
+    color: #2a9d8f;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #bee3ba;
+}
+
+span {
+    font-size: 14px;
+    color: #666;
+}
+
+span a {
+    color: #ff7b54;
+    text-decoration: none;
+}
+
+span a:hover {
+    text-decoration: underline;
+}
+
+
+/* Form label */
+
+label {
+    border-bottom: 2px solid #bdb2ff;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    color: #bdb2ff;
+}
+
+
+/* Dashboard */
+
+.memory-input label {
+    margin-right: 10px;
+}
+
+
+/* Timeline */
+
+.timeline {
+    margin-top: 30px;
+}
+
+.timeline-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item p {
+    margin: 0;
+    font-size: 13px;
+    color: #505251;
+}
+
+
+/* Memory description */
+
+.timeline-item p emphasis {
+    font-size: 17px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+/* Define colors for different age ranges */
+
+.child-0 {
+    background-color: rgba(255, 173, 173, 0.5);
+    border: 1px solid #ff7b54;
+}
+
+.child-1 {
+    background-color: rgba(255, 214, 165, 0.5);
+    border: 1px solid #ff7b54;
+}
+
+.child-2 {
+    background-color: rgba(253, 255, 182, 0.5);
+    border: 1px solid #ff7b54;
+}
+
+.child-3 {
+    background-color: rgba(202, 255, 191, 0.5);
+    border: 1px solid #ff7b54;
+}
+
+.child-4 {
+    background-color: rgba(155, 246, 255, 0.5);
+    border: 1px solid #ff7b54;
+}
+
+.child-5 {
+    background-color: rgba(160, 196, 255, 0.5);
+    border: 1px solid #ff7b54;
+}
+
+.child-6 {
+    background-color: rgba(189, 178, 255, 0.5);
+    border: 1px solid #ff7b54;
+}
+
+
+/* Error and Success Messages */
+
+.error {
+    color: #d62828;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.success {
+    color: #2a9d8f;
+    text-align: center;
+    margin-bottom: 10px;
+}
